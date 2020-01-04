@@ -41,6 +41,8 @@ export class FieldComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
     const field = this.field.nativeElement;
+    console.log(field.style);
+    field.style.margin = '0 auto';
     field.width = this.width;
     field.height = this.height;
 

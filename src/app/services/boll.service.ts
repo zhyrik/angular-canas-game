@@ -15,9 +15,9 @@ export class BollService {
   ) { }
 
   interval = null;
-  top = 300;
-  left = 300;
-  speadCol = 4;
+  top = 150;
+  left = 200;
+  speadCol = -4;
   speadRow = 4;
   size = 5;
 
@@ -98,6 +98,6 @@ export class BollService {
         clearInterval(this.interval);
         alert('you louse');
       }
-    }, 8);
+    }, 10);
   }
 }
